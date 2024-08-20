@@ -42,6 +42,7 @@
 		A58AF15F2C66B60F00D742A5 /* SavedItemTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58AF15D2C66B60F00D742A5 /* SavedItemTVC.swift */; };
 		A58AF1602C66B60F00D742A5 /* SavedItemTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A58AF15E2C66B60F00D742A5 /* SavedItemTVC.xib */; };
 		A58AF1622C66B64300D742A5 /* SavedListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58AF1612C66B64300D742A5 /* SavedListVM.swift */; };
+		A592BB7B2C73AD07002244E6 /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592BB7A2C73AD07002244E6 /* MockAPI.swift */; };
 		AEB9D81B1AB5D3B7C6AD00C5 /* Pods_TendableSurveyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB74C23F55C9469F4D2620CF /* Pods_TendableSurveyTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +105,7 @@
 		A58AF15D2C66B60F00D742A5 /* SavedItemTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedItemTVC.swift; sourceTree = "<group>"; };
 		A58AF15E2C66B60F00D742A5 /* SavedItemTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedItemTVC.xib; sourceTree = "<group>"; };
 		A58AF1612C66B64300D742A5 /* SavedListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedListVM.swift; sourceTree = "<group>"; };
+		A592BB7A2C73AD07002244E6 /* MockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPI.swift; sourceTree = "<group>"; };
 		C36EA46BD6F1FCB79B9803B5 /* Pods_TendableSurvey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TendableSurvey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB74C23F55C9469F4D2620CF /* Pods_TendableSurveyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TendableSurveyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD14E4A09A2AAB7F19FEFF8 /* Pods-TendableSurveyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TendableSurveyTests.debug.xcconfig"; path = "Target Support Files/Pods-TendableSurveyTests/Pods-TendableSurveyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				A58AF1232C62899300D742A5 /* Extensions.swift */,
 				A58AF1242C62899300D742A5 /* Reachability.swift */,
 				A58AF13A2C63C7D800D742A5 /* Common.swift */,
+				A592BB7A2C73AD07002244E6 /* MockAPI.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -233,8 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				A58AF12B2C6296BE00D742A5 /* Model */,
-				A58AF12C2C6296BE00D742A5 /* View */,
 				A58AF12D2C6296BE00D742A5 /* View Model */,
+				A58AF12C2C6296BE00D742A5 /* View */,
 			);
 			path = Survey;
 			sourceTree = "<group>";
@@ -617,6 +620,7 @@
 				A58AF15F2C66B60F00D742A5 /* SavedItemTVC.swift in Sources */,
 				A58AF15B2C66B15A00D742A5 /* SavedListVC.swift in Sources */,
 				A58AF1442C653ACF00D742A5 /* FormQATVC.swift in Sources */,
+				A592BB7B2C73AD07002244E6 /* MockAPI.swift in Sources */,
 				A58AF13B2C63C7D800D742A5 /* Common.swift in Sources */,
 				A58AF0EE2C6284F100D742A5 /* SceneDelegate.swift in Sources */,
 			);
@@ -861,6 +865,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
@@ -881,6 +886,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
@@ -900,6 +906,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = subso.TendableSurveyUITests;
@@ -918,6 +925,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = subso.TendableSurveyUITests;

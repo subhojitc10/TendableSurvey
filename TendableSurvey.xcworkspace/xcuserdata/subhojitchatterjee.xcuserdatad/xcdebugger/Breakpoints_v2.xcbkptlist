@@ -3,4 +3,54 @@
    uuid = "516C2B23-E810-4FFC-A2EC-B223C9051F3E"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD161313-44C2-49A9-BA86-A7C959237DB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TendableSurvey/LoginRegistration/View/LoginRegistrationVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "submitBtnTouch(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD161313-44C2-49A9-BA86-A7C959237DB4 - ba0aec7a5f8dd464"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TendableSurvey.LoginRegistrationVC.showPasswordBtnTouch(Any) -&gt; ()"
+                  moduleName = "TendableSurvey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/subhojitchatterjee/Desktop/Tendable_Project/TendableSurveyApp/TendableSurvey/LoginRegistration/View/LoginRegistrationVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "CD161313-44C2-49A9-BA86-A7C959237DB4 - 3a63e0920f7dfece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TendableSurvey.LoginRegistrationVC.submitBtnTouch(Any) -&gt; ()"
+                  moduleName = "TendableSurvey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/subhojitchatterjee/Desktop/Tendable_Project/TendableSurveyApp/TendableSurvey/LoginRegistration/View/LoginRegistrationVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

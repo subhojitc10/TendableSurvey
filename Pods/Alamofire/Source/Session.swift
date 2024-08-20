@@ -37,7 +37,7 @@ open class Session {
     /// - Note: This instance should **NOT** be used to interact with the underlying `URLSessionTask`s. Doing so will
     ///         break internal Alamofire logic that tracks those tasks.
     ///
-    public let session: URLSession
+    public var session: URLSession
     /// Instance's `SessionDelegate`, which handles the `URLSessionDelegate` methods and `Request` interaction.
     public let delegate: SessionDelegate
     /// Root `DispatchQueue` for all internal callbacks and state update. **MUST** be a serial queue.

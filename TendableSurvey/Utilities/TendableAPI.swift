@@ -10,6 +10,12 @@ import Alamofire
 
 public class TendableAPI: NSObject {
     
+    var session: Session
+    
+    init(session: Session = Session.default) {
+        self.session = session
+    }
+    
     static let instance = TendableAPI()
     
     let baseUrl = "http://127.0.0.1:5001/"
